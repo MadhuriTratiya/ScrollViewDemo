@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+   <RadioGroup
+       android:id="@+id/gender"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+
+       <RadioButton
+           android:layout_marginTop="50dp"
+           android:layout_marginStart="150dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Male"
+           android:textStyle="bold"
+           android:textColor="@color/design_default_color_primary"
+           android:textSize="28sp"/>
+       <RadioButton
+           android:layout_marginTop="50dp"
+           android:layout_marginStart="150dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="female"
+           android:textStyle="bold"
+           android:textColor="@color/design_default_color_primary"
+           android:textSize="28sp"/>
+   </RadioGroup>
+
+    <Button
+        android:layout_marginTop="250dp"
+        android:layout_marginStart="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Gender"
+        android:textStyle="bold"
+        android:onClick="selectgender"
+        android:backgroundTint="#EE0038"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_marginTop="350dp"
+        android:layout_marginStart="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="28sp"/>
+</RelativeLayout>
